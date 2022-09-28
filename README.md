@@ -10,7 +10,20 @@ Hello I am Raza. I am a mern developer. This is my first web aplication.
 * ***JAVA***
 * Jvascript
 
-## Test Heading 
+## Console test
+
+```console
+$ nmp start
+```
+## Testing js code
+
+```js
+// App listen 
+app.listen(PORT , () => {
+    console.log(` Your server is running on port ${PORT}`.bgGreen.black);
+})
+```
+
 
 
 
